@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(../images/WhatsApp\ Görsel\ 2025-01-09\ saat\ 22.47.01_27d2eed1.jpg);
+    background-size:contain
+}
+
+.erol{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px #999;
+}
+
+.erol:hover{
+    background-color: blueviolet;
+}
+
+.erol:active{
+    background-color: blueviolet;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+embed{ display: none;}
+.musk-hav:active + embed{display: block;}
+
+embed{ display: none;}
+.musk-bi-saniye:active + embed{display:block}
+
+embed{display: none;}
+.musk-deli:active + embed{display: block;}
+
+embed{display: none;}
+.musk-kim:active + embed{display: block;}
+
+
+embed{display: none;}
+.musk-yaziyorum:active + embed{display: block;}
