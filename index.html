@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="./css/stylesheet.css" />
   </head>
   <body>
-    <div class="container">
-      <button type="button" class="erol musk-hav">Hav Hav</button>
+<!--      <button type="button" class="erol musk-hav">Hav Hav</button>
       <embed class="havhav" src="./sounds/havhav.mp3"/>
       <button type="button" class="erol musk-deli">Abi nasıl bi delisin</button>
       <embed class="nasil-deli" src="./sounds/abinasildelisin.mp3"/>
@@ -19,7 +18,51 @@
       <button type="button" class="erol musk-kim">Bu kimin abi</button>
       <embed class="bu-kimin-abi" src="./sounds/bukiminabi.mp3"/>
       <button type="button" class="erol musk-yaziyorum">Yazıyorum hesabına</button>
-      <embed class="bu-hesabina" src="./sounds/hesabinayazicam.mp3"/>
+      <embed class="bu-hesabina" src="./sounds/hesabinayazicam.mp3"/> -->
+     
+      <audio id="audio" src="sounds/havhav.mp3" autostart="false"></audio>
+      <button onclick="clickHavhav();" class="erol havhav"> Hav Hav</button>
+
+      <audio id="audio1" src="sounds/abinasildelisin.mp3" autostart="false"></audio>
+      <button onclick="clickDeli();" class="erol deli"> Abi nasıl bi delisin</button>
+
+      <audio id="audio2" src="sounds/tamamabi.mp3" autostart="false"></audio>
+      <button onclick="clickSaniye();" class="erol saniye"> Abi bi saniye</button>
+
+      <audio id="audio3" src="sounds/bukiminabi.mp3" autostart="false"></audio>
+      <button onclick="clickKimin();" class="erol kimin"> Bu kimin abi</button>
+
+      <audio id="audio4" src="sounds/hesabinayazicam.mp3" autostart="false"></audio>
+      <button onclick="clickYaziyorum();" class="erol yaziyorum"> Yazıyorum hesabına</button>
+      
+
     </div>
+
+    <script>
+        function clickHavhav(){
+        var sound = document.getElementById('audio');
+        sound.play();
+        }
+
+        function clickDeli(){
+        var sound = document.getElementById('audio1');
+        sound.play();
+        }
+
+function clickSaniye(){
+        var sound = document.getElementById('audio2');
+        sound.play();
+        }
+
+function clickKimin(){
+        var sound = document.getElementById('audio3');
+        sound.play();
+        }
+
+function clickYaziyorum(){
+        var sound = document.getElementById('audio4');
+        sound.play();
+        }
+    </script>
   </body>
 </html>

@@ -23,7 +23,7 @@ body{
     transform: translateY(2px);
 }
 
-embed{ display: none;}
+/* embed{ display: none;}
 .musk-hav:active + embed{display: block;}
 
 embed{ display: none;}
@@ -38,3 +38,4 @@ embed{display: none;}
 
 embed{display: none;}
 .musk-yaziyorum:active + embed{display: block;}
+ */
